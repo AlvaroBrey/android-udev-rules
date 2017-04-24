@@ -1,0 +1,4 @@
+# udev rules for android devices (adb/fastboot)
+
+# Generic Google device
+SUBSYSTEM=="usb", ATTR{idVendor}=="18d1", MODE="0666", GROUP="plugdev" 
