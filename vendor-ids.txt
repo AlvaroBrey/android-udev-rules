@@ -1,3 +1,4 @@
 18d1 # Google
 258a # ZUK
 2b4c # ZUK (fastboot)
+05c6 # Xiaomi
