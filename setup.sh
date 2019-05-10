@@ -15,7 +15,7 @@ function genRules() {
 
 # generate rules file
 genRules
-# do symlink
+# copy file to udev folder
 sudo cp -f "$(pwd)/$FILENAME" /etc/udev/rules.d/
 sudo chmod a+r "/etc/udev/rules.d/$FILENAME"
 # restart udev
