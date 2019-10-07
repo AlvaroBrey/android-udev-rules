@@ -24,3 +24,6 @@ sudo service udev restart
 # restart adb
 adb kill-server
 adb start-server
+# cleanup and finish
+rm "$FILENAME"
+echo "All done!"
