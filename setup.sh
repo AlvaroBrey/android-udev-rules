@@ -32,3 +32,6 @@ echo -n 'Restarting adbd... '
 adb kill-server > /dev/null 2>&1
 adb start-server > /dev/null 2>&1
 echo 'ok'
+# cleanup and finish
+rm "$FILENAME"
+echo "All done!"
