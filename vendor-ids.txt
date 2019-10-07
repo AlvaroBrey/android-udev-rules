@@ -1,6 +1,7 @@
 18d1 # Google
 12d1 # Huawei
 0e8d # Mediatek
+04e8 # Samsung
 05c6 # Xiaomi
 258a # ZUK
 2b4c # ZUK (fastboot)
