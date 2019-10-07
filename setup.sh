@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+set -euo pipefail
 
 FILENAME="51-android.rules"
 
