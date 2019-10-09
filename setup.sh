@@ -35,4 +35,4 @@ adb start-server > /dev/null 2>&1
 echo 'ok'
 # cleanup and finish
 rm "$FILENAME"
-echo "All done!"
+echo "All done! If your device still doesn't work, please unplug it and try again."
