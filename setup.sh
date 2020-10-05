@@ -24,9 +24,9 @@ sudo cp -f "$(pwd)/$FILENAME" /etc/udev/rules.d/
 sudo chmod a+r "/etc/udev/rules.d/$FILENAME"
 echo 'ok'
 # restart udev
-echo -n 'Reloading and restarting udev... '
+echo -n 'Reloading udev... '
 sudo udevadm control --reload-rules
-sudo service udev restart
+sudo udevadm trigger
 echo 'ok'
 # restart adb
 echo -n 'Restarting adbd... '
